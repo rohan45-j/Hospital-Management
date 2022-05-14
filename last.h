@@ -1,0 +1,31 @@
+void CD_display(){
+    system("cls");
+    fixed();
+    gotoxy(36, 15);
+    printf("\tArea    \t\tBrunch\t\t\t\tPhone\t\t\tEmail");
+    gotoxy(30, 16);
+    printf("\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\n\n");
+    gotoxy(36, 17);
+    printf("\tMirpur \t\t\tUttorot\t\t\t\t1122334455\t\tuttoron@sotota.com");
+    gotoxy(36, 18);
+    printf("\t----------------------------------------------------------------------------------------------------\n");
+    gotoxy(36, 19);
+    printf("\tUttora \t\t\tUnnoyot\t\t\t\t77889911\t\tunnoyon@sotota.com");
+    gotoxy(36, 20);
+    printf("\t----------------------------------------------------------------------------------------------------\n");
+    gotoxy(36, 21);
+    printf("\tBadda  \t\t\tShilpat\t\t\t\t33556688\t\tshilpayon@sotota.com");
+    gotoxy(36, 22);
+    printf("\t----------------------------------------------------------------------------------------------------\n");
+    gotoxy(36, 23);
+    printf("\tWari   \t\t\tGrihay\t\t\t\t55442288\t\tgrihayon@sotota.com");
+    gotoxy(36, 24);
+    printf("\t----------------------------------------------------------------------------------------------------\n");
+    gotoxy(36, 25);
+    printf("\tGulsan \t\t\tRupayot\t\t\t\t44778899\t\trupayon@sotota.com");
+    gotoxy(36, 26);
+    printf("\t----------------------------------------------------------------------------------------------------\n");
+    gotoxy(30, 28);
+    printf("Enter any key to continue..");
+    getch();
+}
